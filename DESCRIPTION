@@ -1,0 +1,39 @@
+Package: biodogma
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: Authors@R:
+  c(person(given = "anna",
+           family = "kulesza",
+           role = c("aut"), # There must be a "cre", but there can only be one
+           email = "ania.kulesza12014@outlook.com"), 
+    person(given = "Giulia",
+           family = "Macaluso",
+           role = "aut",
+           email = "s263511@dtu.dk"),
+    person(given = "firstname",
+           family = "lastname",
+           role = c("aut", "cre"), # There must be a "cre", but there can only be one
+           email = "your@email.com"), 
+    person(given = "Maria",
+           family = "Seimeni",
+           role = "aut",
+           email = "s263494@dtu.dk"),
+    person(given = "Matteo",
+           family = "D'Angelo",
+           role = "aut",
+           email = "s263497@dtu.dk"),
+    person(given = "Ausrine",
+           family = "Butrimaite",
+           role = "cre",
+           email = "s253540@dtu.dk")
+  )
+Description: More about what it does (maybe more than one line).
+    Continuation lines should be indented.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
