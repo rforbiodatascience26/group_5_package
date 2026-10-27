@@ -1,12 +1,16 @@
 ---
 title: "vignette_biodogma"
-output: rmarkdown::html_vignette
+output: rmarkdown::pdf_document
 vignette: >
   %\VignetteIndexEntry{vignette_biodogma}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---dev
 ---
+
+# Package name
+
+package general description
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -18,3 +22,17 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(biodogma)
 ```
+
+## Func 1
+
+## Func 2
+
+## Func 3
+
+## Func 4
+
+## Func 5
+
+# Discussion
+
+As a final section, discuss use cases for the package and what other functions could be included. Also include the main points from your discussion in Task 3.
