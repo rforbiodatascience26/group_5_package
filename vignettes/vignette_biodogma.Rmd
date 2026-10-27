@@ -26,7 +26,14 @@ library(biodogma)
 
 ## Func 2
 
-## Func 3
+## dividing_codons
+
+dividing_codons function takes RNA sequence (string), counts where the codon should start and divides the sequence into reading codes.
+
+```{r}
+dividing_codons("AAUUGGCC")
+#>[1] "AAU" "UGG"
+```
 
 ## Func 4
 
