@@ -36,7 +36,7 @@ dividing_codons("AAUUGGCC")
 #>[1] "AAU" "UGG"
 ```
 
-## Find amino acid associated to codon using `find_aa()`
+## find_aa
 
 The `find_aa()` function translates an RNA codon into its corresponding amino acid using the package's codon_table lookup table. It accepts one or more codons as input and returns the associated amino acid abbreviations as a character string.
 
