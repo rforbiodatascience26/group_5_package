@@ -57,6 +57,8 @@ dividing_codons("AAUUGGCC")
 #>[1] "AAU" "UGG"
 ```
 
+The function identifies two complete codons, AAU and UGG. The remaining two nucleotides, CC do not form a complete codon and are excluded.
+
 ## find_aa
 
 The `find_aa()` function translates an RNA codon into its corresponding amino acid using the package's codon_table lookup table. It accepts one or more codons as input and returns the associated amino acid abbreviations as a character string.
@@ -98,4 +100,3 @@ count_plot('AKLMAKKK')
 # Discussion
 
 As a final section, discuss use cases for the package and what other functions could be included. Also include the main points from your discussion in Task 3.
-
