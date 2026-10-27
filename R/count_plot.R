@@ -13,7 +13,7 @@
 count_plot <- function(sequence){
   # defining unique amino acids in the sequence
   unique_aa <- sequence |>
-    stringr::str_split(pattern = stringr::boundary(""), simplify = TRUE) |>
+    stringr::str_split(pattern = stringr::boundary("character"), simplify = TRUE) |>
     as.character() |>
     unique()
 
