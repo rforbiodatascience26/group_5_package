@@ -5,6 +5,7 @@ vignette: >
   %\VignetteIndexEntry{vignette_biodogma}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
+---dev
 ---
 
 ```{r, include = FALSE}
