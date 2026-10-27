@@ -23,7 +23,28 @@ knitr::opts_chunk$set(
 library(biodogma)
 ```
 
-## Func 1
+## makeseq()
+
+The "makeseq" function takes a positive integer number as its argument, and creates a randomly generated sequence made of nucleotides.
+
+You can use it as follows:
+
+```{r}
+makeseq(sequence_lenght)
+```
+
+The output depends on both the size of the sequence to make and the random sampling. Two sequences of the same length could be completely different. Here's an example:
+
+```{r}
+sequence_1 <- makeseq(10) 
+sequence_2 <- makeseq(10)  
+
+#Outputs: 
+print(sequence_1) 
+print(sequence_2)
+```
+
+## 
 
 ## Func 2
 
@@ -77,3 +98,4 @@ count_plot('AKLMAKKK')
 # Discussion
 
 As a final section, discuss use cases for the package and what other functions could be included. Also include the main points from your discussion in Task 3.
+
