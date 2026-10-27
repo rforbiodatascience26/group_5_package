@@ -2,7 +2,7 @@ Package: biodogma
 Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
-Authors@R: Authors@R:
+Authors@R:
   c(person(given = "anna",
            family = "kulesza",
            role = c("aut"), # There must be a "cre", but there can only be one
@@ -11,10 +11,6 @@ Authors@R: Authors@R:
            family = "Macaluso",
            role = "aut",
            email = "s263511@dtu.dk"),
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"), # There must be a "cre", but there can only be one
-           email = "your@email.com"), 
     person(given = "Maria",
            family = "Seimeni",
            role = "aut",
@@ -35,8 +31,10 @@ Encoding: UTF-8
 LazyData: true
 Suggests: 
     knitr,
-    rmarkdown
+    rmarkdown,
+    testthat (>= 3.0.0)
 VignetteBuilder: knitr
 Depends: 
     R (>= 3.5)
 RoxygenNote: 7.3.2
+Config/testthat/edition: 3
