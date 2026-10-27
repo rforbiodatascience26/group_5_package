@@ -6,7 +6,7 @@
 #' @returns RNA sequence divided into codons
 #' @export
 #'
-#' @examples
+#'
 dividing_codons <- function(rna_sequence, start = 1){
   sequence_length <- nchar(rna_sequence)
   codons <- substring(rna_sequence,
