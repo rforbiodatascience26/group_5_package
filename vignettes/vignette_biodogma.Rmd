@@ -46,7 +46,7 @@ print(sequence_2)
 
 ## trans()
 
-*`trans()`* substitutes the thymine base (T) of a DNA sequence into uracil base (U), creating an RNA sequence. It consists of one argument `pattern` where the user inserts the DNA sequence.
+*`trans()`* substitutes the thymine base (T) of a DNA sequence with a uracil base (U), creating an RNA sequence. It consists of one argument `pattern` where the user inserts the DNA sequence.
 
 ```{r}
 trans(pattern = "TGCAGTT")
