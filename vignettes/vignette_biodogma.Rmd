@@ -44,9 +44,13 @@ print(sequence_1)
 print(sequence_2)
 ```
 
-## 
+## trans()
 
-## Func 2
+*`trans()`* substitutes the thymine base (T) of a DNA sequence into uracil base (U), creating an RNA sequence. It consists of one argument `pattern` where the user inserts the DNA sequence.
+
+```{r}
+trans(pattern = "TGCAGTT")
+```
 
 ## dividing_codons
 
