@@ -7,7 +7,7 @@
 count_plot(sequence)
 }
 \arguments{
-\item{sequence}{amino acids sequence with ' ' seperator}
+\item{sequence}{amino acids sequence}
 }
 \value{
 plot of the amino acids count in the sequence
@@ -16,5 +16,5 @@ plot of the amino acids count in the sequence
 Amino acids count plot
 }
 \examples{
-count_plot('CAA CAG AAU AAU CGA')
+count_plot("A")
 }
