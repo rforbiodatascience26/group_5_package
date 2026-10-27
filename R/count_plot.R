@@ -8,7 +8,7 @@
 #' @returns plot of the amino acids count in the sequence
 #' @export
 #'
-#' @examples count_plot("A")
+#' @examples count_plot("AMLEICLKLKVG")
 
 count_plot <- function(sequence){
   # defining unique amino acids in the sequence
