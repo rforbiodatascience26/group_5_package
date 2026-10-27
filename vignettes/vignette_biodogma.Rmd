@@ -30,7 +30,19 @@ library(biodogma)
 
 ## Func 4
 
-## Func 5
+## count_plot
+
+The function takes in the sequence of amino acids as a parameter and counts the appearance of each amino acid.
+
+It is done by defining the unique amino acids from the sequence into a new variable and then counting the number of times they appear in the sequence. The data frame is created storing those counts.
+
+The results are returned in a form of a barplot visualizing the amino acids counts.
+
+Example:
+
+```{r}
+count_plot('AKLMAKKK')
+```
 
 # Discussion
 
