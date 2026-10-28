@@ -8,9 +8,13 @@ vignette: >
 ---dev
 ---
 
-# Package name
+# BioDogma
 
-package general description
+#### A Guide to DNA and RNA Sequence Analysis
+
+BioDogma is an R package designed to simplify basic DNA and RNA sequence analysis. It provides a collection of functions that allow users to generate random nucleotide sequences, transcribe DNA into RNA, divide RNA sequences into codons, translate codons into amino acids, and visualize amino acid frequencies.
+
+The package combines these functions into a simple workflow, replicating the central dogma of molecular biology. It allows users to explore the relationship between nucleotide sequences and amino acid sequences through practical examples in R.
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
