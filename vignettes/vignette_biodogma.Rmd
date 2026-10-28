@@ -71,8 +71,6 @@ The function identifies two complete codons, AAU and UGG. The remaining two nucl
 
 The `find_aa()` function translates an RNA codon into its corresponding amino acid using the package's codon_table lookup table. It accepts one or more codons as input and returns the associated amino acid abbreviations as a character string.
 
-Examples
-
 ```{r}
 find_aa(codons = "UUU")
 ```
@@ -86,8 +84,6 @@ find_aa(codons = c("UUU", "AUG", "GGU"))
 ```
 
 Here, UUU encodes phenylalanine (F), AUG encodes methionine (M), and GGU encodes glycine (G). The function concatenates the results into a single character string.
-
-`find_aa()` can be used to translate codons obtained from an RNA sequence-processing function, allowing users to convert codon data into amino acid representations.
 
 ## count_plot()
 
