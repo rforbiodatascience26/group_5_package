@@ -8,9 +8,13 @@ vignette: >
 ---dev
 ---
 
-# package name
+# biodogma
 
-package general description
+#### A Guide to DNA and RNA Sequence Analysis
+
+BioDogma is an R package designed to simplify basic DNA and RNA sequence analysis. It provides a collection of functions that allow users to generate random nucleotide sequences, transcribe DNA into RNA, divide RNA sequences into codons, translate codons into amino acids, and visualize amino acid frequencies.
+
+The package combines these functions into a simple workflow, replicating the central dogma of molecular biology. It allows users to explore the relationship between nucleotide sequences and amino acid sequences through practical examples in R.
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -52,7 +56,7 @@ print(sequence_2)
 trans(pattern = "TGCAGTT")
 ```
 
-## dividing_codons
+## dividing_codons()
 
 dividing_codons function takes RNA sequence (string), counts where the codon should start and divides the sequence into reading codes.
 
@@ -63,11 +67,9 @@ dividing_codons("AAUUGGCC")
 
 The function identifies two complete codons, AAU and UGG. The remaining two nucleotides, CC do not form a complete codon and are excluded.
 
-## find_aa
+## find_aa()
 
 The `find_aa()` function translates an RNA codon into its corresponding amino acid using the package's codon_table lookup table. It accepts one or more codons as input and returns the associated amino acid abbreviations as a character string.
-
-Examples
 
 ```{r}
 find_aa(codons = "UUU")
@@ -83,9 +85,7 @@ find_aa(codons = c("UUU", "AUG", "GGU"))
 
 Here, UUU encodes phenylalanine (F), AUG encodes methionine (M), and GGU encodes glycine (G). The function concatenates the results into a single character string.
 
-`find_aa()` can be used to translate codons obtained from an RNA sequence-processing function, allowing users to convert codon data into amino acid representations.
-
-## count_plot
+## count_plot()
 
 The function takes in the sequence of amino acids as a parameter and counts the appearance of each amino acid.
 
