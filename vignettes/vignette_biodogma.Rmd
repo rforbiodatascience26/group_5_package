@@ -8,7 +8,7 @@ vignette: >
 ---dev
 ---
 
-# BioDogma
+# biodogma
 
 #### A Guide to DNA and RNA Sequence Analysis
 
