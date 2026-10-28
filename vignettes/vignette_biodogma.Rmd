@@ -8,7 +8,7 @@ vignette: >
 ---dev
 ---
 
-# Package name
+# package name
 
 package general description
 
@@ -99,7 +99,25 @@ Example:
 count_plot('AKLMAKKK')
 ```
 
-## Combining the functions
+## Example analysis with biodogma
+
+```{r}
+# create a DNA sequence of 15 nucleotides
+dna_seq <- makeseq(15)
+
+# substitute the Ts of DNA with Us
+rna_seq <- trans(dna_seq)
+
+# devide the RNA sequence into codons
+codon_seq <- dividing_codons(rna_seq)
+
+# translate RNA codons into amino acids
+amino_acid_seq <- find_aa(codon_seq)
+
+# create a bar plot of the counts of each amino acid in the sequence
+amino_acid_plot <- count_plot(amino_acid_seq)
+amino_acid_plot
+```
 
 # Discussion
 
