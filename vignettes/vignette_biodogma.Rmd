@@ -52,7 +52,7 @@ print(sequence_2)
 trans(pattern = "TGCAGTT")
 ```
 
-## dividing_codons
+## dividing_codons()
 
 dividing_codons function takes RNA sequence (string), counts where the codon should start and divides the sequence into reading codes.
 
@@ -63,7 +63,7 @@ dividing_codons("AAUUGGCC")
 
 The function identifies two complete codons, AAU and UGG. The remaining two nucleotides, CC do not form a complete codon and are excluded.
 
-## find_aa
+## find_aa()
 
 The `find_aa()` function translates an RNA codon into its corresponding amino acid using the package's codon_table lookup table. It accepts one or more codons as input and returns the associated amino acid abbreviations as a character string.
 
@@ -85,7 +85,7 @@ Here, UUU encodes phenylalanine (F), AUG encodes methionine (M), and GGU encodes
 
 `find_aa()` can be used to translate codons obtained from an RNA sequence-processing function, allowing users to convert codon data into amino acid representations.
 
-## count_plot
+## count_plot()
 
 The function takes in the sequence of amino acids as a parameter and counts the appearance of each amino acid.
 
