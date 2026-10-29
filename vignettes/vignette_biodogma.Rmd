@@ -7,6 +7,8 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 
+**GitHub repository:** https://github.com/rforbiodatascience26/group_5_package
+
 # biodogma
 
 #### A Guide to DNA and RNA Sequence Analysis
