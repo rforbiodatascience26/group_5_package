@@ -50,7 +50,7 @@ print(sequence_2)
 
 ## dividing_codons
 
-dividing_codons function takes RNA sequence (string), counts where the codon should start and divides the sequence into reading codes.
+dividing_codons() function takes RNA sequence (string), counts where the codon should start and divides the sequence into reading codes.
 
 ```{r}
 dividing_codons("AAUUGGCC")
