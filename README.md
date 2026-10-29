@@ -30,7 +30,7 @@ You can use it as follows:
 ``` r
 sequence_length <- 15
 makeseq(sequence_length)
-#> [1] "GGTATCGGTCGATTC"
+#> [1] "AATATACGATAACTT"
 ```
 
 The output depends on both the size of the sequence to make and the
@@ -43,9 +43,9 @@ sequence_2 <- makeseq(10)
 
 #Outputs: 
 print(sequence_1) 
-#> [1] "TGACCTACTT"
+#> [1] "TTTGTGTATG"
 print(sequence_2)
-#> [1] "TCCCGCGAAA"
+#> [1] "ACTGTCTGCC"
 ```
 
 ## trans()
