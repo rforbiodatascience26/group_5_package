@@ -121,4 +121,6 @@ amino_acid_plot
 
 # Discussion
 
-As a final section, discuss use cases for the package and what other functions could be included. Also include the main points from your discussion in Task 3.
+The 'biodogma' package can be useful for bioinformaticians working with amino acids sequences. It provides functions for translations of the codons' sequence, its processing, and visualization of amino acids count. It could be used for basic processing of the genetic information. As future package additions the group considered a possibility of multiple sequences comparison for example logo visualization.
+
+The package holds only two dependencies that have been used for the count_plot function. The amount of dependancies is preferably as small as possible due to the maintance that comes with it. Although using other packages ensures working functions, at the same time lowering the possibility of potential bugs, they are independant and might change over time meaning a need for changes in the created package itself. Furthermore, installing additional packages takes space and power, so controlling the amount of dependencies is crucial for a well working package. They are added by running the usethis::usepackage() and are then added to the description preferrably with specific functions needed already defined. Nevertheless, the package::function() way of calling out is still used to ensure no ambiguity.
